@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(149, 151, 149);
+}
+#h1{
+    font-size: 60px;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(32, 21, 9);
+}
+
+.cooking{
+     width: 50vw;
+      min-width: 300px;
+      height: 60vh;
+      margin: auto;
+      margin-bottom: 30px;
+      background-color: rgb(171, 177, 171);
+      position: relative;
+      top: 20px;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 10px 10px 10px rgb(93, 85, 85);
+    
+}
+.cooking h1{
+    text-align: center;
+}
+.cooking ul{
+    padding: 20px;
+}
+.cooking ul li{
+    line-height: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.icon{
+  text-align: center;
+  margin-top: 50px
+}
+.icon a{
+  font-size: 60px;
+  text-decoration: none;
+}
+.icon p{
+  font-size: 20px;
+}

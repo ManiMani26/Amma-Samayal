@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #fe9156;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+    width: 100vw;
+  background-color: #ff704d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+header h1{
+  color: #363632;
+  text-shadow: 5px 5px 10px whitesmoke;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+nav li{
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #676142;
+  box-shadow: 5px 5px 10px whitesmoke;
+  border: none;
+  padding: 10px;
+}
+nav ul {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+nav a {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+nav a:hover{
+  color: #2d2602;
+  transition: 0.2s;
+}
+.welcome{
+  
+  align-items: center;
+}
+.welcome h1{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  text-align: center;
+  color: #363632;
+  text-shadow: 5px 5px 15px rgb(46, 44, 40);
+}
+.welcome h3{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  text-align: center;
+  color: #676142;
+}
+.image{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  align-items: center;
+   
+}
+.image img{
+  align-items: center;
+  margin-left: 180px;
+  width: 80vw;
+  min-width: 300px;
+  height: 400px;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+.recipes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #c59e9e;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+} 
+
+footer {
+  background-color: #ff704d;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

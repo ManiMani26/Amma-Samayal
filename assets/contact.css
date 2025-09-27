@@ -1,0 +1,85 @@
+body{
+  background: #f8b117;
+}
+.main {
+  font-family: Arial, sans-serif;
+  /* background: #f7af07; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.order-container {
+  background: #f5b01d;
+  /* display: flex; */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 20px white;
+  width: 100%;
+  max-width: 400px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4b2803dd;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #063536;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #285e61;
+}
+
+.confirmation {
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.icon{
+  text-align: center;
+  margin-top: 20px
+}
+.icon a{
+  font-size: 60px;
+  text-decoration: none;
+}
+.icon p{
+  font-size: 20px;
+}
