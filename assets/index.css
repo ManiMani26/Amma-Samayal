@@ -74,7 +74,7 @@ nav a:hover{
   text-align: center;
   color: #676142;
 }
-.image{
+/* .image{
   margin-top: 40px;
   margin-bottom: 40px;
   align-items: center;
@@ -89,8 +89,21 @@ nav a:hover{
   max-width: 900px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
+} */
+.image-container{
+  width: 80vw;
+  min-width: 300px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
 
+}
+.image-container .image img{
+  width: 80vw;
+  min-width: 300px;
+  height: 400px;
+  border-radius: 10px;
+}
 
 
 
@@ -119,3 +132,4 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
